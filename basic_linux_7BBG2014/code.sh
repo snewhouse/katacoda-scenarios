@@ -1,3 +1,1 @@
-whomai
-uname -a
-lsb_release -a
+whoami && uname -a && lsb_release -a
