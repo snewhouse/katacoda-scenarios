@@ -1,4 +1,3 @@
-This is the Linux Terminal (BASH)...
 
 
 ## pwd

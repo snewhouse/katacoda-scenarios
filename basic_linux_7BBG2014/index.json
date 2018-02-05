@@ -17,8 +17,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-editor",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+    "uilayout": "editor-terminal-split",
   },
   "backend": {
     "imageid": "ubuntu"
