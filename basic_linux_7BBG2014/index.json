@@ -5,7 +5,8 @@
   "time": "20 minutes",
   "details": {
     "steps": [
-      {"title": "Step 1 - Working With Directories", "text": "step1.md"},
+      {"title": "Step 1 - Working With Directories", "text": "step1.md", "courseData": "env-init.sh",
+        "code": "code.sh"},
       {"title": "Step 2 - Working With Files", "text": "step2.md"},
       {"title": "Step 3 - Working With File Contents", "text": "step3.md"}
     ],
