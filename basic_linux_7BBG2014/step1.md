@@ -16,8 +16,19 @@ and type `pwd`. The tool displays your current directory.
 
 `pwd`{{execute}}
 
+```bash
+pwd
+```
+
 ## cd 
 
 You can change your current directory with the cd command (Change Directory).
 
 `cd`{{execute}}
+
+## cd ~
+
+The cd is also a shortcut to get back into your home directory. Just typing cd without a target
+directory, will put you in your home directory. Typing cd ~ has the same effect.
+
+`cd ~`{{execute}}

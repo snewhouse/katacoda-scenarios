@@ -1,3 +1,4 @@
 cd /home
-mkdir ngs_user
+adduser ngs_user
+
 
