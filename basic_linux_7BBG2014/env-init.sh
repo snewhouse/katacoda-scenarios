@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
-cd ~/
+cd /home
 mkdir ngs_user
 
