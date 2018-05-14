@@ -1,1 +1,3 @@
-git clone https://github.com/snewhouse/katacoda-dummy-dir.git
+useradd learner
+cd /home/learner
+mkdir a_directory another_directory
