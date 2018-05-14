@@ -1,11 +1,18 @@
 
 ## How to read this tutorial
 
-Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a black code block, e.g.
+Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a grey code block, e.g.
 
 ```bash
 ls -lrh
 ```
+
+### Terminal Intgration
+You can also send code directly to the terminal. These code snippets or code blocks will be formatted as follow:
+
+Allow a code block to be executed `some-command`{{execute}}
+
+Allow a code block to be copied `some-command`{{copy}}
 
 Sometimes the accompanying text will include a reference to a Unix command. Any such text will also be in a constant-width, boxed font. E.g.
 

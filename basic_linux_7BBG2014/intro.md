@@ -14,23 +14,3 @@ The [Unix operating system][Unix] has been around since 1969. Back then there wa
 [Linux]: http://en.wikipedia.org/wiki/Linux
 
 Unix is particularly suited to working with text files, even very large ones, and has several powerful (and flexible) commands that can process your data for you. The real strength of learning Unix is that most of these commands can be combined in an almost unlimited fashion. So if you can learn just five Unix commands, you will be able to do a lot more than just five things.
-
-## How to read this tutorial
-
-Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a grey code block, e.g.
-
-```bash
-ls -lrh
-```
-
-Alternatively, you can send code directly to the terminal by clicking e.g `ls /`{{execute}}
-
-Sometimes the accompanying text will include a reference to a Unix command. Any such text will also be in a constant-width, boxed font. E.g.
-
->Type the `pwd` command.
-
-From time to time this documentation will contain [web links][] to pages that will help you find out more about certain Unix commands. Usually, the _first_ mention of a command or function will be a hyperlink to Wikipedia. Important or critical points will be styled like so:
-
->***This is an important point!***
-
-[web links]: http://en.wikipedia.org/wiki/Hyperlink
