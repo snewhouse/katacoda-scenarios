@@ -10,9 +10,7 @@
       {"title": "02: The Unix tree", "text": "/markdown/02_the_tree.md"}
     ],
     "intro": {
-      "text": "/markdown/intro.md",
-      "courseData": "courseBase.sh",
-      "code": "changecd.sh"
+      "text": "/markdown/intro.md"
     },
     "finish": {
       "text": "/markdown/finish.md"
