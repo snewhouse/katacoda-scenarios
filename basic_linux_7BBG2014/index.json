@@ -5,7 +5,7 @@
   "time": "60 minutes",
   "details": {
     "steps": [
-      {"title": "How to read this tutorial", "text": "/markdown/00_frontmatter.md"},
+      {"title": "How to read this tutorial", "text": "/markdown/00_frontmatter.md","courseData": "courseBase.sh"},
       {"title": "01. Your first Unix command", "text": "/markdown/01_first_command.md"},
       {"title": "02: The Unix tree", "text": "/markdown/02_the_tree.md"}
     ],
