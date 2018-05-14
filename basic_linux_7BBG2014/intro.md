@@ -17,11 +17,13 @@ Unix is particularly suited to working with text files, even very large ones, an
 
 ## How to read this tutorial
 
-Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a black code block, e.g.
+Command-line examples that you are meant to type into a terminal window, and the results of those examples, will be shown in a grey code block, e.g.
 
 ```bash
 ls -lrh
 ```
+
+Alternatively, you can send code directly to the terminal by clicking e.g `ls /`{{execute}}
 
 Sometimes the accompanying text will include a reference to a Unix command. Any such text will also be in a constant-width, boxed font. E.g.
 
