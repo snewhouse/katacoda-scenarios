@@ -2,11 +2,11 @@
   "title": "Basic Linux and the Command Line (7BBG2014)",
   "description": "Stop the fear and jump right in...Learn the basics of the Linux CLI",
   "difficulty": "beginner",
-  "time": "20 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {"title": "Step 1 - Working With Directories", "text": "step1.md"},
-      {"title": "Step 2 - Working With Files", "text": "step2.md"},
+      {"title": "Step 2 - Working With Files", "text": "/markdown/02_the_tree.md"},
       {"title": "Step 3 - Working With File Contents", "text": "step3.md"}
     ],
     "intro": {
