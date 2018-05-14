@@ -1,5 +1,3 @@
-## 01. Your first Unix command
-
 It's important to note that you will always be *inside* a single directory when using the terminal. The default behavior is that when you open a new terminal you start in your own *home* directory (containing files and directories that only you can modify). To see what files and directories are in our home directory, we need to use the [ls][] command. This command lists the contents of a directory. If we run the `ls` command we should see something like:
 
 ```bash
@@ -19,10 +17,16 @@ The `ls` command is used to list the contents of _any_ directory, not necessaril
 ```bash
 learner@:~$ ls /
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+```
 
+`ls /`{{execute}}
+
+```bash
 learner@:~$ ls /etc/perl
 CPAN  Net
 ```
+
+`ls /etc/perl`{{execute}}
 
 [ls]: http://en.wikipedia.org/wiki/Ls
 [command prompt]: http://en.wikipedia.org/wiki/Command_line_interface
