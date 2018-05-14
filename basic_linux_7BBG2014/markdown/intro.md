@@ -1,5 +1,3 @@
-Bioinfromatics 7BBG2014
-
 # Command-line Bootcamp
 
 ## Introduction
