@@ -1,1 +1,1 @@
-sudo su - learner
+su - learner
