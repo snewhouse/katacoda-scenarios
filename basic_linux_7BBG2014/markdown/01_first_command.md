@@ -19,14 +19,14 @@ learner@:~$ ls /
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 
-`ls /`{{execute}}
+**give it a go:** `ls /`{{execute}}
 
 ```bash
 learner@:~$ ls /etc/perl
 CPAN  Net
 ```
 
-`ls /etc/perl`{{execute}}
+**give it a go:**`ls /etc/perl`{{execute}}
 
 [ls]: http://en.wikipedia.org/wiki/Ls
 [command prompt]: http://en.wikipedia.org/wiki/Command_line_interface
