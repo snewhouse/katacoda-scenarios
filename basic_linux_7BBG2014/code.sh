@@ -1,1 +1,1 @@
-whoami && uname -a && lsb_release -a
+sudo su - learner
