@@ -1,1 +1,1 @@
-su - learner
+cd /home/learner
