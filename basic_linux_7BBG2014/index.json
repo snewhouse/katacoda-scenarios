@@ -29,7 +29,7 @@
       {"title": "21: Viewing files with less", "text": "/markdown/21_viewing_files_less.md"},
       {"title": "22: Viewing files with cat", "text": "/markdown/22_viewing_files_cat.md"},
       {"title": "23: Counting characters, words and lines in a file", "text": "/markdown/23_counting_characters.md"},
-      {"title": "24: Editing small text files with nano, "text": "/markdown/24_editing_small_files.md"},
+      {"title": "24: Editing small text files with nano", "text": "/markdown/24_editing_small_files.md"},
       {"title": "25: The $PATH environment variable", "text": "/markdown/25_the_path.md"},
       {"title": "26: Matching lines in files with grep", "text": "/markdown/26_matching_lines.md"},
       {"title": "27: Working with columns", "text": "/markdown/27_working_with_columns.md"},
