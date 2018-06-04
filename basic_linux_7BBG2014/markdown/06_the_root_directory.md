@@ -1,4 +1,3 @@
-## 06: The root directory
 
 Let's change directory to the root directory, and then into our home directory
 
