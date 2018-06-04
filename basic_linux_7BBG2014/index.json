@@ -45,9 +45,9 @@
       "text": "/markdown/finish.md"
     }
   },
-  "files": [
-        "app.sh"
-    ],
+ // "files": [
+  //      "app.sh"
+   // ],
   "environment": {
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
