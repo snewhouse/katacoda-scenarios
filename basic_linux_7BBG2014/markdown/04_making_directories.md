@@ -9,4 +9,6 @@ learning_unix
 
 `mkdir learning_unix`{{execute}}
 
+`ls`{{execute}}
+
 [mkdir]: https://en.wikipedia.org/wiki/Mkdir

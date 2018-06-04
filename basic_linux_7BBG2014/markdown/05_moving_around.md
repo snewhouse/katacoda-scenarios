@@ -6,7 +6,7 @@ cd learning_unix
 learner@:~/learning_unix$
 ```
 
-`cd`{{execute}}
+`cd learning_unix`{{execute}}
 
 Notice that on this system the command prompt has expanded to include our current directory. This doesn't happen by default on all Unix systems, and you can configure what information appears as part of the command prompt (though we won't cover that here).
 
