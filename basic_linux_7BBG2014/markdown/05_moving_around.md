@@ -7,21 +7,32 @@ cd learning_unix
 learner@:~/learning_unix$
 ```
 
+`cd`{{execute}}
+
 Notice that on this system the command prompt has expanded to include our current directory. This doesn't happen by default on all Unix systems, and you can configure what information appears as part of the command prompt (though we won't cover that here).
 
 Let's make two new subdirectories and navigate into them:
+
+`mkdir outer`{{execute}}
+`cd outer`{{execute}}
+
 
 ```bash
 learner@:learning_unix$ mkdir outer
 learner@:learning_unix$ cd outer
 learner@:outer$
+```
 
+`mkdir inner`{{execute}}
+`cd inner`{{execute}}
+
+```bash
 learner@:outer$ mkdir inner
 learner@:outer$ cd inner/
 learner@:inner$
 ```
 
-Remember that you can always find out where you are using `pwd`:
+Remember that you can always find out where you are using `pwd`{{execute}}:
 
 ```bash
 learner@:inner$ pwd
