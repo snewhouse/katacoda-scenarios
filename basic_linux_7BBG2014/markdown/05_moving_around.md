@@ -13,6 +13,7 @@ Notice that on this system the command prompt has expanded to include our curren
 Let's make two new subdirectories and navigate into them:
 
 `mkdir outer`{{execute}}
+
 `cd outer`{{execute}}
 
 
@@ -23,6 +24,7 @@ learner@host1:outer$
 ```
 
 `mkdir inner`{{execute}}
+
 `cd inner`{{execute}}
 
 ```bash

@@ -9,6 +9,7 @@ learner@host01:~$
 ```
 
 In this case, we may as well have just changed directory in one go:
+
 ```bash
 cd /home/learner/
 ```
