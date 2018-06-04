@@ -1,4 +1,3 @@
-## 15: Moving files
 
 Now, let's assume that we want to move these files to a new directory ('temp'). We will do this using the Unix [mv][] (move) command. Remember to use tab completion:
 
