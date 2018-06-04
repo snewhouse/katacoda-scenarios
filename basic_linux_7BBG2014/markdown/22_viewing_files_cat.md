@@ -1,4 +1,3 @@
-## 22: Viewing files with cat
 
 Let's add another line to the file:
 

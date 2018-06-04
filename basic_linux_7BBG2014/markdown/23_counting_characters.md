@@ -1,4 +1,3 @@
-## 23: Counting characters, words and lines in a file
 
 ```bash
 learner@:learning_unix$ ls

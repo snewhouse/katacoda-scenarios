@@ -1,6 +1,6 @@
-## 19: Copying files
 
 Copying files with the [cp][] (copy) command is very similar to moving them. Remember to always specify a source and a target location. Let's create a new file and make a copy of it:
+
 
 ```bash
 learner@:learning_unix$ touch file1
@@ -8,7 +8,6 @@ learner@:learning_unix$ cp file1 file2
 learner@:learning_unix$ ls
 file1  file2
 ```
-
 What if we wanted to copy files from a different directory to our current directory? Let's put a file in our home directory (specified by `~` remember) and copy it to the current directory (`learning_unix`):
 
 ```bash

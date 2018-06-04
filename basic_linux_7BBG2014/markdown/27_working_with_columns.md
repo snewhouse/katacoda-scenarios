@@ -1,4 +1,4 @@
-## 27: Working with columns
+
 
 Along your "command line adventures", you will encounter many files that are divided in columns, such as "csv" or "tsv" files.
 

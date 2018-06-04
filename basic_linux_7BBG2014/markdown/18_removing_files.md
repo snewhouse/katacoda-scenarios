@@ -1,4 +1,3 @@
-## 18: Removing files
 
 You've seen how to remove a directory with the `rmdir` command, but `rmdir` won't remove directories if they contain any files. So how can we remove the files we have created (inside `learning_unix/temp`)? In order to do this, we will have to use the [rm][] (remove) command.
 

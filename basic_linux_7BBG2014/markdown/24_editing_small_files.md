@@ -1,4 +1,3 @@
-## 24: Editing small text files with nano
 
 Nano is a lightweight editor installed on most Unix systems. There are many more powerful editors (such as 'emacs' and 'vi'), but these have steep learning curves. Nano is very simple. You can edit (or create) files by typing:
 
