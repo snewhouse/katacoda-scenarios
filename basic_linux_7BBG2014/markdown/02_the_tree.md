@@ -6,7 +6,7 @@ Looking at directories from within a Unix terminal can often seem confusing. But
  `ls /`{{execute}}
 
 ```bash
-learner@:~$ ls /
+learner@@host01:~$ ls /
 bin   dev   initrd.img      lib64       mnt   root  software  tmp  vmlinuz
 boot  etc   initrd.img.old  lost+found  opt   run   srv       usr  vmlinuz.old
 data  home  lib             media       proc  sbin  sys       var

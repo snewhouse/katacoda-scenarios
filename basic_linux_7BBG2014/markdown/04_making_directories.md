@@ -2,8 +2,8 @@
 If we want to make a new directory (e.g. to store some work related data), we can use the [mkdir][] command:
 
 ```bash
-learner@:~$ mkdir learning_unix
-learner@:~$ ls
+learner@host01:~$ mkdir learning_unix
+learner@host01:~$ ls
 learning_unix
 ```
 

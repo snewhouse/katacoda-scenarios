@@ -2,7 +2,7 @@
 There may be many hundreds of directories on any Unix machine, so how do you know which one you are in? The command [pwd][] will Print the [Working Directory][] and that's pretty much all this command does:
 
 ```bash
-learner@:~$ pwd
+learner@host01:~$ pwd
 /home/learner
 ```
 
