@@ -1,4 +1,4 @@
-ssh root@host01 'sudo useradd -ms /bin/bash learner'
+ssh root@host01 'sudo useradd -p $(openssl passwd -1 learner) -ms /bin/bash learner'
 ssh root@host01 'mkdir -p /home/learner/{a_directory,another_directory}'
 ssh root@host01 'sudo chown -R learner:learner /home/learner'
 ssh root@host01 'sudo touch /home/learner/script.sh'
