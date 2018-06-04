@@ -2,10 +2,10 @@
 Let's change directory to the root directory, and then into our home directory
 
 ```bash
-learner@:inner$ cd /
-learner@:/$ cd home
-learner@:home$ cd learner
-learner@:~$
+learner@host01:inner$ cd /
+learner@host01:/$ cd home
+learner@host01:home$ cd learner
+learner@host01:~$
 ```
 
 In this case, we may as well have just changed directory in one go:

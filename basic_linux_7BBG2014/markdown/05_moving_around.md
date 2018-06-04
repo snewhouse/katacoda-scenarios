@@ -3,7 +3,7 @@ We are in the home directory on the computer but we want to to work in the new `
 
 ```bash
 cd learning_unix
-learner@:~/learning_unix$
+learner@host1:~/learning_unix$
 ```
 
 `cd learning_unix`{{execute}}
@@ -17,24 +17,24 @@ Let's make two new subdirectories and navigate into them:
 
 
 ```bash
-learner@:learning_unix$ mkdir outer
-learner@:learning_unix$ cd outer
-learner@:outer$
+learner@host1:learning_unix$ mkdir outer
+learner@host1:learning_unix$ cd outer
+learner@host1:outer$
 ```
 
 `mkdir inner`{{execute}}
 `cd inner`{{execute}}
 
 ```bash
-learner@:outer$ mkdir inner
-learner@:outer$ cd inner/
-learner@:inner$
+learner@host1:outer$ mkdir inner
+learner@host1:outer$ cd inner/
+learner@host1:inner$
 ```
 
 Remember that you can always find out where you are using `pwd`{{execute}}:
 
 ```bash
-learner@:inner$ pwd
+learner@host1:inner$ pwd
 /home/learner/learning_unix/outer/inner
 ```
 
