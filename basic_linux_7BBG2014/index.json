@@ -46,7 +46,7 @@
     }
   },
   "files": [
-        "/home/learner/script.sh"
+        "app.sh"
     ],
   "environment": {
     "uilayout": "editor-terminal",
