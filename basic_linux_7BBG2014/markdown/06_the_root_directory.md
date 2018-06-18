@@ -3,18 +3,21 @@ Let's change directory to the root directory, and then into our home directory
 
 `cd /`{{execute}}
 
-
 `cd home`{{execute}}
+
+`cd learner/`{{execute}}
 
 
 ```bash
-learner@host01:inner$ cd /
+learner@host01:~/learning_unix/outer/inner$ cd /
 learner@host01:/$ cd home
-learner@host01:home$ cd learner
+learner@host01:/home$ cd learner/
 learner@host01:~$
+learner@host01:~$ pwd
+/home/learner
 ```
 
-In this case, we may as well have just changed directory in one go:
+In this case, we could have just changed directory in one go:
 
 ```bash
 cd /home/learner/

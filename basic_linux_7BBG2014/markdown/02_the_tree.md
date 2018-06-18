@@ -6,10 +6,10 @@ Looking at directories from within a Unix terminal can often seem confusing. But
  `ls /`{{execute}}
 
 ```bash
-learner@@host01:~$ ls /
-bin   dev   initrd.img      lib64       mnt   root  software  tmp  vmlinuz
-boot  etc   initrd.img.old  lost+found  opt   run   srv       usr  vmlinuz.old
-data  home  lib             media       proc  sbin  sys       var
+learner@host01:~$ ls /
+bin   dev  home        initrd.img.old  lib64       media  opt   root  sbin  sys  usr  vmlinuz
+boot  etc  initrd.img  lib             lost+found  mnt    proc  run   srv   tmp  var  vmlinuz.old
+learner@host01:~$
 ```
 
 You might notice some of these names appearing in different colors. Many Unix systems will display files and directories differently by default. Other colors may be used for special types of files. When you log in to a computer you are working with your files in your home directory, and this is often inside a directory called 'users' or 'home'.
