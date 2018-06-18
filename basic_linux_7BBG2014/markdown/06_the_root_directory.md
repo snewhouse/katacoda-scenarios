@@ -1,6 +1,12 @@
 
 Let's change directory to the root directory, and then into our home directory
 
+`cd /`{{execute}}
+
+
+`cd home`{{execute}}
+
+
 ```bash
 learner@host01:inner$ cd /
 learner@host01:/$ cd home

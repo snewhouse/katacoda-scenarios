@@ -33,7 +33,9 @@ learner@host1:outer$ cd inner/
 learner@host1:inner$
 ```
 
-Remember that you can always find out where you are using `pwd`{{execute}}:
+Remember that you can always find out where you are using: 
+
+`pwd`{{execute}}:
 
 ```bash
 learner@host1:inner$ pwd
