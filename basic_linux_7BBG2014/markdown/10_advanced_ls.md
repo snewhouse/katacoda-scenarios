@@ -15,7 +15,9 @@ learner@host01:~/learning_unix/outer$
 
 Time to learn another useful command-line option. 
 
-If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default. Take note of the syntax - a `-` is needed before the lowercase letter `l`:
+If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default. 
+
+Take note of the syntax: a `-` is needed before the lowercase letter `l` i.e `-l`:
 
 `ls -l /home`{{execute}}
 
