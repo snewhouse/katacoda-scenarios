@@ -12,11 +12,10 @@ If pressing tab doesn't do anything, then you have not have typed enough unique 
 
 This trick can save you a LOT of typing!
 
-Now lets try it...
+Now lets try it - we will use the `cd` command in combination with tab completion to change to the `learning_unix` directory:
 
 - Navigate to your home directory `cd ~`{{execute}}, 
-- Then we will use the `cd` command in combination with tab completion to change to the `learning_unix` directory.
-- Start typing `cd l` i.e just type the first letter of the directory named  `learning_unix`
+- Start typing `cd l` i.e just type `cd` followed by a space and then the first letter of the directory named  `learning_unix`
 - The press the tab key.
 
 If there are no other directories starting with 'l' in your home directory, then you should only need to type `cd l` and then press your `tab` key.
