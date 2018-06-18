@@ -1,6 +1,9 @@
 
 Using `cd ..` allows us to change directory _relative_ to where we are now. You can also always change to a directory based on its _absolute_ location. E.g. if you are working in the `/home/learner/learning_unix` directory and you then want to change to the `/tmp` directory, then you could do either of the following:
 
+
+`cd ../../../tmp`{{execute}}
+
 ```bash
 learner@host01:~/learning_unix$ cd ../../../tmp
 ```

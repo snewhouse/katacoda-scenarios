@@ -9,6 +9,18 @@ cd ~
 cd
 ```
 
+Try it
+
+```
+cd /
+pwd
+```{{execute}}
+
+
+`cd ~`{{execute}}
+
+`cd`{{execute}}
+
 Hopefully, you should find that `cd` and `cd ~` do the same thing, i.e. they take you back to your home directory (from wherever you were). You will frequently want to jump straight back to your home directory, and typing `cd` is a very quick way to get there.
 
 You can also use the `~` as a quick way of navigating into subdirectories of your home directory when your current directory is somewhere else. I.e. the quickest way of navigating from the root directory to your `learning_unix` directory is as follows:
