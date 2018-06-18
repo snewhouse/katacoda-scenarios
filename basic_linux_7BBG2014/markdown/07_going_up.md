@@ -3,8 +3,6 @@ Frequently, you will find that you want to go 'upwards' one level in the directo
 
 `cd learning_unix/`{{execute}}
 
-``{{execute}}
-
 `cd ..`{{execute}}
 
 `cd ..`{{execute}}
