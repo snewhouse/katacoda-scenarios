@@ -1,5 +1,3 @@
-##cd /home/learner
-##su - learner
-clear
+cd /home/learner && su - learner && clear
 
 
