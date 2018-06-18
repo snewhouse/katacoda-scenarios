@@ -7,21 +7,23 @@ The `..` operator that we saw earlier can also be used with the `ls` command, e.
 
 
 ```bash
-learner@:learning_unix$ cd ~/learning_unix/outer/
-learner@:outer$ ls ../../
-a_directory another_directory learning_unix
+learner@host01:~/learning_unix/outer$ cd ~/learning_unix/outer/
+learner@host01:~/learning_unix/outer$ ls ../..
+a_directory  another_directory  learning_unix  script.sh
+learner@host01:~/learning_unix/outer$
 ```
 
 Time to learn another useful command-line option. 
 
-If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default:
+If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default. Take note of the syntax - a `-` is needed before the lowercase letter `l`:
 
 `ls -l /home`{{execute}}
 
 ```bash
-learner@:learning_unix$ ls -l /home
-total 4
-drwxr-xr-x 6 learner learner 4096 Dec  2 08:31 learner
+learner@host01:~/learning_unix/outer$ ls -l /home
+total 8
+drwxr-xr-x 5 learner learner 4096 Jun 18 13:13 learner
+drwxr-xr-x 3 packer  packer  4096 Apr 16 09:47 packer
 ```
 
 For each file or directory we now see more information (including file ownership and modification times). The 'd' at the start of each line indicates that these are directories. There are many, many different options for the `ls` command. Try out the following (against any directory of your choice) to see how the output changes.
