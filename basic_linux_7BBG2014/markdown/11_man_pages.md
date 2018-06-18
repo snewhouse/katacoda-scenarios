@@ -7,4 +7,16 @@ man cd
 man man # yes even the man command has a manual page
 ```
 
-When you are using the man command, press `space` to scroll down a page, `b` to go back a page, or `q` to quit. You can also use the up and down arrows to scroll a line at a time. The man command is actually using another Unix program, a text viewer called `less`, which we'll come to later on.
+When you are using the man command:
+
+- press `space` to scroll down a page.
+- `b` to go back a page.
+- `q` to quit. 
+
+You can also use the up and down arrows to scroll a line at a time. 
+
+The man command is actually using another Unix program, a text viewer called `less`, which we'll come to later on.
+
+Try it:
+
+`man ls`{{execute}}
