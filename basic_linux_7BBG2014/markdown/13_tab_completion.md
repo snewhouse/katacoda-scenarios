@@ -22,7 +22,11 @@ If there are no other directories starting with 'l' in your home directory, then
 
 
 ### `history` 
-Another great time-saver is that Unix stores a list of all the commands that you have typed in each login session. You can access this list by using the [history][] command or more simply by using the up and down arrows to access anything from your history. So if you type a long command but make a mistake, press the up arrow and then you can use the left and right arrows to move the cursor in order to make a change.
+Another great time-saver is that Unix stores a list of all the commands that you have typed in each login session. 
+
+You can access this list by using the [history][] command or more simply by using the up and down arrows to access anything from your history. So if you type a long command but make a mistake, press the up arrow and then you can use the left and right arrows to move the cursor in order to make a change.
+
+`history`{{execute}}
 
 [the tab key]: https://en.wikipedia.org/wiki/Tab_key
 [tab complete]: http://en.wikipedia.org/wiki/Command_line_completion
