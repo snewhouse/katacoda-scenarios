@@ -1,12 +1,14 @@
 
 We are in the home directory on the computer but we want to to work in the new `learning_unix` directory. To change directories in Unix, we use the [cd][] command:
 
-```bash
-cd learning_unix
-learner@host1:~/learning_unix$
-```
 
 `cd learning_unix`{{execute}}
+
+
+```bash
+learner@host01:~$ cd learning_unix
+learner@host01:~/learning_unix$
+```
 
 Notice that on this system the command prompt has expanded to include our current directory. This doesn't happen by default on all Unix systems, and you can configure what information appears as part of the command prompt (though we won't cover that here).
 
@@ -18,9 +20,9 @@ Let's make two new subdirectories and navigate into them:
 
 
 ```bash
-learner@host1:learning_unix$ mkdir outer
-learner@host1:learning_unix$ cd outer
-learner@host1:outer$
+learner@host01:~/learning_unix$ mkdir outer
+learner@host01:~/learning_unix$ cd outer
+learner@host01:~/learning_unix/outer$
 ```
 
 `mkdir inner`{{execute}}
@@ -28,9 +30,9 @@ learner@host1:outer$
 `cd inner`{{execute}}
 
 ```bash
-learner@host1:outer$ mkdir inner
-learner@host1:outer$ cd inner/
-learner@host1:inner$
+learner@host01:~/learning_unix/outer$ mkdir inner
+learner@host01:~/learning_unix/outer$ cd inner
+learner@host01:~/learning_unix/outer/inner$
 ```
 
 Remember that you can always find out where you are using: 
