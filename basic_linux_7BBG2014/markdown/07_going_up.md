@@ -1,7 +1,7 @@
 
 Frequently, you will find that you want to go 'upwards' one level in the directory hierarchy. Two dots `..` are used in Unix to refer to the _parent_ directory of wherever you are. Every directory has a parent except the root level of the computer. Let's go into the `learning_unix` directory and then navigate up two levels:
 
-`cd learning_unix/`{{execute}}
+`cd ~/learning_unix/`{{execute}}
 
 `cd ..`{{execute}}
 
