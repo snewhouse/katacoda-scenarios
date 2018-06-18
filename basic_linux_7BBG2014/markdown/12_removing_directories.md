@@ -15,12 +15,12 @@ To do this use the [rmdir][] command `rmdir`, this will only remove empty direct
 `ls`{{execute}}
 
 ```bash
-learner@:~$ cd ~/learning_unix/outer/
-learner@:outer$ rmdir inner/
-learner@:outer$ cd ..
-learner@:learning_unix$ rmdir outer/
-learner@:learning_unix$ ls
-learner@:learning_unix$
+learner@host01:~/learning_unix/outer$ cd ~/learning_unix/outer/
+learner@host01:~/learning_unix/outer$ rmdir inner/
+learner@host01:~/learning_unix/outer$ cd ..
+learner@host01:~/learning_unix$ rmdir outer/
+learner@host01:~/learning_unix$ ls
+learner@host01:~/learning_unix$
 ```
 
 *** Note, you have to be outside a directory before you can remove it with `rmdir` ***

@@ -8,7 +8,7 @@ Frequently, you will find that you want to go 'upwards' one level in the directo
 `cd ..`{{execute}}
 
 ```bash
-learner@host01:~$ cd learning_unix/
+learner@host01:~$ cd ~/learning_unix/
 learner@host01:~/learning_unix$ cd ..
 learner@host01:~$ cd ..
 learner@host01:/home$
