@@ -11,7 +11,7 @@ Frequently, you will find that you want to go 'upwards' one level in the directo
 learner@host01:~$ cd learning_unix/
 learner@host01:~/learning_unix$ cd ..
 learner@host01:~$ cd ..
-learner@host01:~$
+learner@host01:/home$
 ```
 
 What if you wanted to navigate up _two_ levels in the file system in one go? It's very simple, just use two sets of the `..` operator, separated by a forward slash:

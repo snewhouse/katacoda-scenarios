@@ -7,6 +7,7 @@ Let's change directory to the root directory, and then into our home directory
 
 `cd learner/`{{execute}}
 
+`pwd`{{execute}}
 
 ```bash
 learner@host01:~/learning_unix/outer/inner$ cd /
