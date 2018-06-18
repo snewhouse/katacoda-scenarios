@@ -12,11 +12,11 @@ First, we need to have some files to play with. The Unix command [touch][] will 
 `ls`{{execute}}
 
 
-
 ```bash
-learner@:learning_unix$ touch heaven.txt
-learner@:learning_unix$ touch earth.txt
-learner@:learning_unix$ ls
+learner@host01:~/learning_unix$ cd ~/learning_unix
+learner@host01:~/learning_unix$ touch heaven.txt
+learner@host01:~/learning_unix$ touch earth.txt
+learner@host01:~/learning_unix$ ls
 earth.txt  heaven.txt
 ```
 
