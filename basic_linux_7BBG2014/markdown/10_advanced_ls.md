@@ -1,12 +1,22 @@
 
 The `..` operator that we saw earlier can also be used with the `ls` command, e.g. you can list directories that are 'above' you:
 
+`cd ~/learning_unix/outer/`{{execute}}
+
+`ls ../..`{{execute}}
+
+
 ```bash
 learner@:learning_unix$ cd ~/learning_unix/outer/
 learner@:outer$ ls ../../
-a_directory another_directory learning_unix                                                                                                                  ```
+a_directory another_directory learning_unix
+```
 
-Time to learn another useful command-line option. If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default:
+Time to learn another useful command-line option. 
+
+If you add the letter 'l' to the `ls` command it will give you a longer output compared to the default:
+
+`ls -l /home`{{execute}}
 
 ```bash
 learner@:learning_unix$ ls -l /home
@@ -22,5 +32,15 @@ ls -R
 ls -l -t -r
 ls -lh
 ```
+
+
+`ls -l`{{execute}} 
+
+`ls -R`{{execute}}
+
+`ls -l -t -r`{{execute}}
+
+`ls -lh`{{execute}}
+
 
 Note that the last example combine multiple options but only use one dash. This is a very common way of specifying multiple command-line options. You may be wondering what some of these options are doing. It's time to learn about Unix documentation...
