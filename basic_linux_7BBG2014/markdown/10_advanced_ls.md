@@ -37,14 +37,42 @@ ls -l -t -r
 ls -lh
 ```
 
-
 `ls -l`{{execute}} 
+
+```bash
+learner@host01:~/learning_unix/outer$ ls -l
+total 4
+drwxrwxr-x 2 learner learner 4096 Jun 18 13:13 inner
+```
+
 
 `ls -R`{{execute}}
 
+```bash
+learner@host01:~/learning_unix/outer$ ls -R
+.:
+inner
+
+./inner:
+```
+
 `ls -l -t -r`{{execute}}
+
+
+```bash
+learner@host01:~/learning_unix/outer$ ls -l -t -r
+total 4
+drwxrwxr-x 2 learner learner 4096 Jun 18 13:13 inner
+```
+
 
 `ls -lh`{{execute}}
 
+```bash
+learner@host01:~/learning_unix/outer$ ls -lh
+total 4.0K
+drwxrwxr-x 2 learner learner 4.0K Jun 18 13:13 inner
+learner@host01:~/learning_unix/outer$
+```
 
 Note that the last example combine multiple options but only use one dash. This is a very common way of specifying multiple command-line options. You may be wondering what some of these options are doing. It's time to learn about Unix documentation...
