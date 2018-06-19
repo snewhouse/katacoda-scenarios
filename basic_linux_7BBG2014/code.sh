@@ -8,4 +8,5 @@ echo $USER
 
 echo $HOME
 
-. "$HOME/.bashrc"
+. ~/.bashrc
+
