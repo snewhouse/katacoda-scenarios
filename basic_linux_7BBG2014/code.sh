@@ -4,6 +4,8 @@ cd /home/learner
 
 echo $SHELL
 
-echo $whoami
+echo $USER
 
-. "$HOME/.bashrc"
+echo $HOME
+
+echo '. "$HOME/.bashrc"'
