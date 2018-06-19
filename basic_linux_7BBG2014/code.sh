@@ -1,4 +1,4 @@
 cd /home/learner
 su - learner
-source /home/learner/.bashrc
+. /home/learner/.bashrc
 clear
