@@ -51,7 +51,13 @@
         "file": ".bashrc",
         "target": "/home/learner/"
       }
-    ]
+    ],
+    "client": [
+      {
+        "file": ".bashrc",
+        "target": "/home/learner/"
+      }
+    ],
   },
   "files": [
         "editor.sh"
