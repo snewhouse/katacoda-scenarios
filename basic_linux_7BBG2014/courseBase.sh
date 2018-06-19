@@ -1,6 +1,7 @@
-ssh root@host01 'sudo apt-get install -y less htop'
 ssh root@host01 'sudo useradd -p $(openssl passwd -1 learner) -s /bin/bash -G root -m -U learner'
 ssh root@host01 'mkdir -p /home/learner/{a_directory,another_directory}'
 ssh root@host01 'sudo chown -R learner:learner /home/learner/'
 ssh root@host01 'sudo touch /home/learner/script.sh'
 ssh root@host01 'sudo chown -R learner:learner /home/learner/script.sh'
+ssh root@host01 'sudo apt-get install -y less htop'
+sleep 5s
