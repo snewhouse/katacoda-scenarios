@@ -1,4 +1,5 @@
-cd /home/learner
+#!/usr/bin/env bash
 sudo -i -u learner
-/bin/bash -c "source ~/.bashrc"
+cd /home/learner
+. ~/.bashrc
 clear
