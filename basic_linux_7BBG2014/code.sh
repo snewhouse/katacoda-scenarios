@@ -1,4 +1,3 @@
 cd /home/learner
-su - learner
-. /home/learner/.bashrc
+sudo -i -u learner
 clear

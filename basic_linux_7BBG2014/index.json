@@ -45,21 +45,7 @@
       "text": "/markdown/finish.md"
     }
   },
-  "assets":{
-    "host01": [
-      {
-        "file": ".bashrc",
-        "target": "/home/learner/"
-      }
-    ],
-    "client": [
-      {
-        "file": ".bashrc",
-        "target": "/home/learner/"
-      }
-    ]
-  },
-  "files": [
+    "files": [
         "editor.sh"
     ],
   "environment": {
