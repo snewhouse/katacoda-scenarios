@@ -8,4 +8,4 @@ echo $USER
 
 echo $HOME
 
-echo '. "$HOME/.bashrc"'
+. "$HOME/.bashrc"
