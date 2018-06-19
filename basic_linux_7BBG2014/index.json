@@ -57,7 +57,7 @@
         "file": ".bashrc",
         "target": "/home/learner/"
       }
-    ],
+    ]
   },
   "files": [
         "editor.sh"
