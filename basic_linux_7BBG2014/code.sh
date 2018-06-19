@@ -1,3 +1,5 @@
+. ~/.bashrc
+
 sleep 3s
 
 sudo -i -u learner
