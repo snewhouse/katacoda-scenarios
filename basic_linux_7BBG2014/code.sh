@@ -1,4 +1,4 @@
-su - learner
+sudo -i -u learner
 
 cd /home/learner
 
