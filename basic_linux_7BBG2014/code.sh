@@ -1,3 +1,4 @@
-cd /home/learner && su - learner && clear
-
-
+cd /home/learner
+su - learner
+source /home/learner/.bashrc
+clear

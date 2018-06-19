@@ -48,6 +48,14 @@
   "files": [
         "app.sh"
     ],
+  "assets":{
+    "client": [
+      {
+        "file": ".bashrc",
+        "target": "/home/learner/"
+      }
+    ]
+  },
   "environment": {
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
