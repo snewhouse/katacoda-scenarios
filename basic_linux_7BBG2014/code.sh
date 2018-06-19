@@ -1,3 +1,3 @@
 cd /home/learner
-sudo -i -u learner
+su - learner
 exec bash
