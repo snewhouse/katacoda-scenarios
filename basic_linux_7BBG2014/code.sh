@@ -1,4 +1,5 @@
+exec bash -l
 cd /home/learner
 su - learner
-exec bash -l
+
 
