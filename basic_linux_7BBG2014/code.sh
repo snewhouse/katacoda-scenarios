@@ -1,3 +1,3 @@
-sudo -i -u learner
 cd /home/learner
+sudo -i -u learner
 clear
