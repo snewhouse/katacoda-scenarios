@@ -2,7 +2,8 @@ su - learner
 
 cd /home/learner
 
-bash
+echo $SHELL
 
-clear
+echo $whoami
 
+. "$HOME/.bashrc"
