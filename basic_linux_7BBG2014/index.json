@@ -49,7 +49,7 @@
         "app.sh"
     ],
   "assets":{
-    "client": [
+    "host": [
       {
         "file": ".bashrc",
         "target": "/home/learner/"
