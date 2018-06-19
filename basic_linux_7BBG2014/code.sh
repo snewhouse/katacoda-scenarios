@@ -1,3 +1,5 @@
+sleep 3s
+
 sudo -i -u learner
 
 cd /home/learner
