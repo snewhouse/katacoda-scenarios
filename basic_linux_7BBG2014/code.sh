@@ -1,3 +1,1 @@
-sudo -i -u learner
-source .bashrc
-clear
+sudo -i -u learner && source .bashrc && clear
