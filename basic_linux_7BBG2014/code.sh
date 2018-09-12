@@ -1,1 +1,1 @@
-pwd
+sudo -i -u learner
