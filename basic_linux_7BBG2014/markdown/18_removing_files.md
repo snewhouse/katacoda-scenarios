@@ -5,8 +5,13 @@ You've seen how to remove a directory with the `rmdir` command, but `rmdir` won'
 
 Potentially, `rm` is a very dangerous command; if you delete something with `rm`, you will not get it back! It is possible to delete everything in your home directory (all directories and subdirectories) with `rm`, that is why it is such a dangerous command.
 
-Let me repeat that last part again. It is possible to delete EVERY file you have ever created with the `rm` command. Are you scared yet? You should be. Luckily there is a way of making `rm` a little bit safer. We can use it with the `-i` command-line option which will ask for confirmation before deleting anything (remember to use tab-completion). Run the following commands,
-and type "y" (for yes) to indicate you truly intend to delete the files.
+Let me repeat that last part again. **It is possible to delete EVERY file you have ever created with the `rm` command**.
+
+Are you scared yet? You should be.
+
+Luckily there is a way of making `rm` a little bit safer. We can use it with the `-i` command-line option which will ask for confirmation before deleting anything (remember to use tab-completion).
+
+Run the following commands, and type "y" (for yes) to indicate you truly intend to delete the files.
 
 ```bash
 learner@:learning_unix$ cd temp
@@ -19,6 +24,12 @@ rm: remove regular empty file rags? y
 learner@:temp$ ls
 temp2
 ```
+
+`cd temp`{{execute}}
+`ls`{{execute}}
+`rm -i earth.txt heaven.txt rags`{{execute}}
+`ls`{{execute}}
+
 
 We could have simplified this step by using a wild-card (e.g. `rm -i *.txt`) or we could have made things more complex by removing each file with a separate `rm` command. Let's finish cleaning up:
 
