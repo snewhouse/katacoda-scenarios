@@ -21,3 +21,7 @@ From time to time this documentation will contain [web links][] to pages that wi
 >***This is an important point!***
 
 [web links]: http://en.wikipedia.org/wiki/Hyperlink
+
+## Please run the following command before proceeding!
+
+`source .bashrc`{{execute}}
