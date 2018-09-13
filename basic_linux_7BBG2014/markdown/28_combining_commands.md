@@ -1,8 +1,9 @@
 
 One of the most poweful features of Unix is that you can send the output from one command or program to any other command (as long as the second commmand accepts input of some sort). We do this by using what is known as a [pipe][]. This is implemented using the '|' character (which is a character which always seems to be on different keys depending on the keyboard that you are using). Think of the pipe as simply connecting two Unix programs. Here's an example which introduces some new Unix commands:
 
+
 ```bash
-learner@:learning_unix$ 
+learner@:learning_unix$
 grep was opening_lines.txt | wc -c
 316
 
@@ -10,6 +11,10 @@ learner@:learning_unix$
 grep was opening_lines.txt | sort | head -n 3 | wc -c
 130
 ```
+
+`grep was opening_lines.txt | wc -c`{{execute}}
+
+`grep was opening_lines.txt | sort | head -n 3 | wc -c`{{execute}}
 
 The first use of `grep` searches the specified file for lines matching 'was', it sends the lines that match through a pipe to the `wc` program. We use the `-c` option to just count characters in the matching lines (316).
 
