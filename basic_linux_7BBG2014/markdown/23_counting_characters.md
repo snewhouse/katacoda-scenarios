@@ -16,4 +16,13 @@ learner@:learning_unix$ wc -l opening_lines.txt
 
 The `ls -l` option shows us a long listing, which includes the size of the file in bytes (in this case '42'). Another way of finding this out is by using Unix's [wc][wc command] command (word count). By default this tells you many lines, words, and characters are in a specified file (or files), but you can use command-line options to give you just one of those statistics (in this case we count lines with `wc -l`).
 
+`ls`{{execute}}
+
+`ls -l`{{execute}}
+
+`wc opening_lines.txt`{{execute}}
+
+`wc -l opening_lines.txt`{{execute}}
+
+
 [wc command]: https://en.wikipedia.org/wiki/Wc_(Unix)
