@@ -26,12 +26,17 @@ temp2
 ```
 
 `cd temp`{{execute}}
+
 `ls`{{execute}}
+
 `rm -i earth.txt heaven.txt rags`{{execute}}
+
 `ls`{{execute}}
 
 
-We could have simplified this step by using a wild-card (e.g. `rm -i *.txt`) or we could have made things more complex by removing each file with a separate `rm` command. Let's finish cleaning up:
+We could have simplified this step by using a wild-card (e.g. `rm -i *.txt`) or we could have made things more complex by removing each file with a separate `rm` command.
+
+Let's finish cleaning up:
 
 ```bash
 learner@:temp$ rmdir temp2/temp3/
@@ -39,5 +44,13 @@ learner@:temp$ rmdir temp2/
 learner@:temp$ cd ..
 learner@:learning_unix$ rmdir temp
 ```
+
+`rmdir temp2/temp3/`{{execute}}
+
+`rmdir temp2/`{{execute}}
+
+`cd ..`{{execute}}
+
+`rmdir temp`{{execute}}
 
 [rm]: http://en.wikipedia.org/wiki/Rm_(Unix)
