@@ -10,3 +10,8 @@ learner@:learning_unix$ nano opening_lines.txt
 You simply type the text you want to include in the file.
 
 The bottom of the nano window shows you a list of simple commands which are all accessible by typing 'Control' plus a letter. E.g. Control + X exits the program.
+
+## Other Text Editors
+Nano is just one of many text editors. Click on the link below for a round up of some of the best (most used).
+
+[10 Best Text Editors for Windows, Linux and Mac](https://mashtips.com/best-text-editors-for-pc/)
