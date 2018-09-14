@@ -4,7 +4,7 @@ Now, let's assume that we want to move these files to a new directory ('temp'). 
 
 `mkdir temp`{{execute}}
 
-`mv heaven.xtx temp/`{{execute}}
+`mv heaven.txt temp/`{{execute}}
 
 `mv earth.txt temp/`{{execute}}
 
@@ -31,11 +31,11 @@ mv *t temp/
 mv *ea* temp/
 ```
 
-`mv *.txt temp/`: The asterisk `*` acts as a [wild-card character][], essentially meaning 'match anything'. 
+`mv *.txt temp/`: The asterisk `*` acts as a [wild-card character][], essentially meaning 'match anything'.
 
-`mv *t temp/`: The second example works because there are no other files or directories in the directory that end with the letters 't' (if there was, then they would be moved too). 
+`mv *t temp/`: The second example works because there are no other files or directories in the directory that end with the letters 't' (if there was, then they would be moved too).
 
-`mv *ea* temp/`: Likewise, the third example works because only those two files contain the letters 'ea' in their names. 
+`mv *ea* temp/`: Likewise, the third example works because only those two files contain the letters 'ea' in their names.
 
 **Using wild-card characters can save you a lot of typing.**
 
