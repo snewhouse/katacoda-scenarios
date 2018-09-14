@@ -1,4 +1,4 @@
-**Note: This is a work in progresss and will be complete by June 30th**
+
 # Command-line Bootcamp
 This is the command-line bootcamp, a tutorial that teaches you how to work at the command-line. You'll learn all the basic skills needed to start being productive in the UNIX terminal.
 
@@ -16,4 +16,5 @@ The [Unix operating system][Unix] has been around since 1969. Back then there wa
 Unix is particularly suited to working with text files, even very large ones, and has several powerful (and flexible) commands that can process your data for you. The real strength of learning Unix is that most of these commands can be combined in an almost unlimited fashion. So if you can learn just five Unix commands, you will be able to do a lot more than just five things.
 
 ## Credits
+
 The bootcamp tutorial text was adapted from [the command-line bootcamp,](http://rik.smith-unna.com/command_line_bootcamp/?id=dmj203cz42i) which was adpted from[the original](http://rescuedbycode.com/linux-bootcamp) by [Keith Bradnam](http://www.keithbradnam.com/). This version was made by [Stephen J Newhouse](https://www.linkedin.com/in/sjnewhouse/) [@s_j_newhouse](https://twitter.com/s_j_newhouse). 
