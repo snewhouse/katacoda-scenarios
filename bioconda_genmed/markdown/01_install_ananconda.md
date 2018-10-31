@@ -110,7 +110,7 @@ For the installation to take effect, enter the command `source ~/.bashrc`.
 #### Verify installation
 After your install is complete, you can verify it by running `conda --version`
 
-``conda --version`{{execute}}
+`conda --version`{{execute}}
 
 ### Putting it all together
 
