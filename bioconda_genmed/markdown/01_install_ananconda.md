@@ -19,7 +19,7 @@ Saving to: ‘Anaconda3-5.3.0-Linux-x86_64.sh’
 Anaconda3-5.3.0-Linux-x86_64.s  45%[=====================>                            ] 288.47M  47.0MB/s    eta 8s
 ```
 
-Make the install script executable once the donwload has completed.
+Make the install script executable once the download has completed.
 
 `chmod +x ./Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
 
@@ -28,8 +28,7 @@ Enter the following to install Anaconda for Python 3.7:
 
 `bash ./Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
 
-   >NOTE Include the `bash` command regardless of whether or not you are using Bash shell.  
-   >NOTE: Choose “Install Anaconda as a user” unless root privileges are required.  
+You will see something like this:
 
 ```bash
 $ bash ./Anaconda3-5.3.0-Linux-x86_64.sh
@@ -41,6 +40,8 @@ agreement.
 Please, press ENTER to continue
 >>>
 ```
+>NOTE Include the `bash` command regardless of whether or not you are using Bash shell.  
+>NOTE: Choose “Install Anaconda as a user” unless root privileges are required.  
 
 #### Review the license agreement
 
