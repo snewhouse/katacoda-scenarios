@@ -5,7 +5,7 @@
   "time": "30 minutes",
   "details": {
     "steps": [
-      { "title": "Install Anaconda", "text": "/markdown/01_install_anaconda.md"}
+      { "title": "Install Anaconda", "text": "./markdown/01_install_ananconda.md"}
     ],
     "intro": {
       "text": "/markdown/intro.md"
