@@ -107,10 +107,16 @@ For the installation to take effect, enter the command `source ~/.bashrc`.
 
 `source ~/.bashrc`{{execute}}
 
-#### Verify installation
+#### Verify and test installation
 After your install is complete, you can verify it by running `conda --version`
 
 `conda --version`{{execute}}
+
+To test your installation, in your Terminal window or Anaconda Prompt, run the command conda list
+
+`conda list`{{execute}}
+
+
 
 ### Putting it all together
 
