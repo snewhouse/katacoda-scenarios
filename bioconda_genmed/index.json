@@ -1,0 +1,60 @@
+{
+  "title": "Basic Linux and the Command Line",
+  "description": "Stop the fear and jump right in...Learn the basics of the Linux CLI",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      { "title": "How to read this tutorial", "text": "/markdown/00_frontmatter.md"},
+      { "title": "01. Your first Unix command", "text": "/markdown/01_first_command.md"},
+      { "title": "02: The Unix tree", "text": "/markdown/02_the_tree.md"},
+      { "title": "03: Finding out where you are", "text": "/markdown/03_finding_yourself.md"},
+      { "title": "04: Making new directories", "text": "/markdown/04_making_directories.md"},
+      { "title": "05: Getting from 'A' to 'B'", "text": "/markdown/05_moving_around.md"},
+      { "title": "06: The root directory", "text": "/markdown/06_the_root_directory.md"},
+      { "title": "07: Navigating upwards in the Unix filesystem", "text": "/markdown/07_going_up.md"},
+      { "title": "08: Absolute and relative paths", "text": "/markdown/08_absolute_and_relative.md"},
+      { "title": "09: Finding your way back home", "text": "/markdown/09_going_home.md"},
+      { "title": "10: Making the `ls` command more useful", "text": "/markdown/10_advanced_ls.md"},
+      { "title": "11: Man pages", "text": "/markdown/11_man_pages.md"},
+      { "title": "12: Removing directories", "text": "/markdown/12_removing_directories.md"},
+      { "title": "13: Using tab completion", "text": "/markdown/13_tab_completion.md"},
+      { "title": "14: Creating empty files with the touch command", "text": "/markdown/14_making_files.md"},
+      { "title": "15: Moving files", "text": "/markdown/15_moving_files.md"},
+      { "title": "16: Renaming files", "text": "/markdown/16_renaming_files.md"},
+      { "title": "17: Moving directories", "text": "/markdown/17_moving_directories.md"},
+      { "title": "18: Removing files", "text": "/markdown/18_removing_files.md"},
+      { "title": "19: Copying files", "text": "/markdown/19_copying_files.md"},
+      { "title": "20: Copying directories", "text": "/markdown/20_copying_directories.md"},
+      { "title": "21: Viewing files with less", "text": "/markdown/21_viewing_files_less.md"},
+      { "title": "22: Viewing files with cat", "text": "/markdown/22_viewing_files_cat.md"},
+      { "title": "23: Counting characters, words and lines in a file", "text": "/markdown/23_counting_characters.md"},
+      { "title": "24: Editing small text files with nano", "text": "/markdown/24_editing_small_files.md"},
+      { "title": "25: The $PATH environment variable", "text": "/markdown/25_the_path.md"},
+      { "title": "26: Matching lines in files with grep", "text": "/markdown/26_matching_lines.md"},
+      { "title": "27: Working with columns", "text": "/markdown/27_working_with_columns.md"},
+      { "title": "28: Combining Unix commands with pipes", "text": "/markdown/28_combining_commands.md"},
+      { "title": "29: Miscellaneous Unix power commands", "text": "/markdown/29_power_commands.md"}
+    ],
+    "intro": {
+      "courseData": "courseBase.sh",
+      "code": "code.sh",
+      "text": "/markdown/intro.md"
+    },
+    "finish": {
+      "text": "/markdown/finish.md"
+    }
+  },
+    "files": [
+        "editor.sh"
+    ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "bash",
+    "uieditorpath": "/home/learner/",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
