@@ -3,7 +3,7 @@
 
     `
     wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh
-    chmod +x ./Anaconda3-5.3.0-Linux-x86_64.s
+    chmod +x ./Anaconda3-5.3.0-Linux-x86_64.sh
     `{{execute}}
 
 2. Optional: [Verify data integrity with MD5 or SHA-256](http://docs.anaconda.com/anaconda/install/hashes/). (For more information on hashes, see [cryptographic hash validation](https://conda.io/docs/user-guide/install/download.html#cryptographic-hash-verification).)
