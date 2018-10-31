@@ -9,14 +9,33 @@
 
 `bash ./Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
 
-   **NOTE:** Include the `bash` command regardless of whether or not you are using Bash shell.
-   **NOTE:** Choose “Install Anaconda as a user” unless root privileges are required.
+   **NOTE:** Include the `bash` command regardless of whether or not you are using Bash shell.  
+   **NOTE:** Choose “Install Anaconda as a user” unless root privileges are required.  
 
 3. The installer prompts “In order to continue the installation process, please review the license agreement.” Click Enter to view license terms.
 
 4. Scroll to the bottom of the license terms and enter “Yes” to agree.
 
+```bash
+Do you accept the license terms? [yes|no]
+[no] >>>
+Please answer 'yes' or 'no':'
+>>> yes
+```
+
 5. The installer prompts you to click Enter to accept the default install location, CTRL-C to cancel the installation, or specify an alternate installation directory. If you accept the default install location, the installer displays **“PREFIX=/home/<user>/anaconda<2 or 3>”** and continues the installation. It may take a few minutes to complete.
+
+```bash
+Anaconda3 will now be installed into this location:
+/root/anaconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/root/anaconda3] >>>
+```
+
 
 6. The installer prompts “Do you wish the installer to prepend the Anaconda<2 or 3> install location to PATH in your /home/<user>/.bashrc ?” Enter `Yes`.
 
