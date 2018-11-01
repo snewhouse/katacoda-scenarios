@@ -67,7 +67,7 @@ Anaconda3 will now be installed into this location:
 
 [/root/anaconda3] >>>
 ```
->NOTE: Make a note of the install location i.e the `PREFIX`
+>NOTE: Make a note of the install location i.e the `PREFIX`. In this example it is `PREFIX=/root/anaconda3`
 
 #### Add the Anaconda install location to `PATH`
 
@@ -99,8 +99,6 @@ To test your installation, in your Terminal window or Anaconda Prompt, run the c
 
 `conda list`{{execute}}
 
-
-
 ### Putting it all together
 
 Putting it all together the chain of commands look like this:-
@@ -111,4 +109,5 @@ chmod +x ./Anaconda3-5.3.0-Linux-x86_64.sh
 bash ./Anaconda3-5.3.0-Linux-x86_64.sh
 source ~/.bashrc
 conda --version
+conda list
 ```

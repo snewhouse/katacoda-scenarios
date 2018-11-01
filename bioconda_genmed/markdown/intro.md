@@ -1,16 +1,8 @@
 # Anaconda, Conda and Bioconda
 A quick guide to setting up Anaconda, conda and Bioconda for basic NGS (DNAseq) workflows
 
-**For Linux x86 systems.**
-
-- **Version:** Anaconda3-5.3.0-Linux-x86_64
-- **Anaconda Version:** 5.3.0
-- **Python Version:** 3.7
-- **OS:** Linux-x86_64
-- **Date:** 2018-11-31
-
 ### Bioconda
-**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) package manager specializing in bioinformatics software. Bioconda consists of:
+**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) **package manager specializing in bioinformatics software**. Bioconda consists of:
 
 - a [repository of recipes](https://github.com/bioconda/bioconda-recipes) hosted on GitHub
 - a [build system](https://github.com/bioconda/bioconda-utils) that turns these recipes into conda packages
@@ -31,6 +23,23 @@ Each package added to Bioconda also has a corresponding Docker [BioContainer](ht
 
 **Browse BioContainer packages:** [Biocontainers Registry UI](https://biocontainers.pro/registry/#/)
 
+### Conda
+
+*Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN*
+
+Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.
+
+Conda as a package manager helps you find and install packages. If you need a package that requires a different version of Python, you do not need to switch to a different environment manager, because conda is also an environment manager. With just a few commands, you can set up a totally separate environment to run that different version of Python, while continuing to run your usual version of Python in your normal environment.
+
+In its default configuration, conda can install and manage the thousand packages at repo.continuum.io that are built, reviewed and maintained by Anaconda®.
+
+Conda can be combined with continuous integration systems such as Travis CI and AppVeyor to provide frequent, automated testing of your code.
+
+The conda package and environment manager is included in all versions of [Anaconda](https://conda.io/docs/glossary.html#anaconda-glossary)®, [Miniconda](https://conda.io/docs/glossary.html#miniconda-glossary)and [Anaconda Repository](https://docs.continuum.io/anaconda-repository/). Conda is also included in [Anaconda Enterprise](https://www.anaconda.com/enterprise/) , which provides on-site enterprise package and environment management for Python, R, Node.js, Java and other application stacks. Conda is also available on PyPI, although that approach may not be as up to date.
+
+### Anaconda
+
+Anaconda® is a package manager, an environment manager, a Python distribution, and a collection of [over 1,500+ open source packages](https://docs.anaconda.com/anaconda/packages/pkg-docs/). Anaconda is free and easy to install, and it offers [free community support](https://groups.google.com/a/anaconda.com/forum/?fromgroups#!forum/anaconda).
 
 # Credits
 Adapted and taken from  

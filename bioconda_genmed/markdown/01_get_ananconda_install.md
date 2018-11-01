@@ -1,6 +1,12 @@
+**For Linux x86 systems.**
 
+- **Version:** Anaconda3-5.3.0-Linux-x86_64
+- **Anaconda Version:** 5.3.0
+- **Python Version:** 3.7
+- **OS:** Linux-x86_64
+- **Date:** 2018-11-31
 
-### Get the Anaconda3 Install script
+### Download the Anaconda3 Install script
 On the command line, use `wget` to download the [Anaconda installer for Linux](https://www.anaconda.com/download/#linux) and make it executable by running the commands:-
 
 `wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
