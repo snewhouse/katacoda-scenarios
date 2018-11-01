@@ -10,6 +10,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 ```
+run the following:-
 
 `
 conda config --add channels defaults \
@@ -18,8 +19,7 @@ conda config --add channels conda-forge
 `{{execute}}
 
 
-
-#### Install packages
+#### Install bioinformatic packages and software
 
 [Browse the packages](https://bioconda.github.io/recipes.html#recipes) to see what’s available.
 
