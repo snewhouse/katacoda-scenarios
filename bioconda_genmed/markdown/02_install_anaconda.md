@@ -1,30 +1,6 @@
 
-
-### Get the Anaconda3 Install script
-On the command line, use `wget` to download the [Anaconda installer for Linux](https://www.anaconda.com/download/#linux) and make it executable by running the commands:-
-
-`wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
-
-You will see something like this:
-
-```bash
-$ wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh
---2018-10-31 12:02:24--  https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh
-Resolving repo.anaconda.com (repo.anaconda.com)... 104.17.108.77, 104.17.111.77, 104.17.109.77, ...
-Connecting to repo.anaconda.com (repo.anaconda.com)|104.17.108.77|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 667822837 (637M) [application/x-sh]
-Saving to: ‘Anaconda3-5.3.0-Linux-x86_64.sh’
-
-Anaconda3-5.3.0-Linux-x86_64.s  45%[=====================>                            ] 288.47M  47.0MB/s    eta 8s
-```
-
-Make the install script executable once the download has completed.
-
-`chmod +x ./Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
-
 ### Run the Anaconda install script
-Enter the following to install Anaconda for Python 3.7:
+Run the following to install Anaconda for Python 3.7:
 
 `bash ./Anaconda3-5.3.0-Linux-x86_64.sh`{{execute}}
 
@@ -43,10 +19,15 @@ Please, press ENTER to continue
 >NOTE Include the `bash` command regardless of whether or not you are using Bash shell.  
 >NOTE: Choose “Install Anaconda as a user” unless root privileges are required.  
 
+Follow the prompts on the installer screens.
+
+If you are unsure about any setting, accept the defaults. You can change them later.
+
 #### Review the license agreement
 
 The installer prompts “In order to continue the installation process, please review the license agreement.” Click Enter to view license terms
 
+You will see something like this:
 
 ```bash
 ===================================
@@ -106,6 +87,8 @@ The installer finishes and displays “Thank you for installing Anaconda<2 or 3>
 For the installation to take effect, enter the command `source ~/.bashrc`.
 
 `source ~/.bashrc`{{execute}}
+
+Or, if installing on your local machine, to make the changes take effect, you close and then re-open your Terminal window.
 
 #### Verify and test installation
 After your install is complete, you can verify it by running `conda --version`
