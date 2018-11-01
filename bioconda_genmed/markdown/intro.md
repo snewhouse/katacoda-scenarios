@@ -23,6 +23,12 @@ Each package added to Bioconda also has a corresponding Docker [BioContainer](ht
 
 **Browse BioContainer packages:** [Biocontainers Registry UI](https://biocontainers.pro/registry/#/)
 
+--------
+
+Bioconda is a derivative mark of Anaconda ®, a trademark of Anaconda, Inc registered in the U.S. and other countries. Anaconda, Inc. grants permission of the derivative use but is not associated with Bioconda.
+
+The Bioconda channel is sponsored by [Anaconda, Inc](https://www.anaconda.com/) in the form of providing unlimited (in time and space) storage. Bioconda is supported by [Circle CI](https://circleci.com/) via an open source plan including free Linux and MacOS builds.
+
 ### Conda
 
 *Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN*
