@@ -2,14 +2,14 @@
 A quick guide to setting up Anaconda, conda and Bioconda for basic NGS (DNAseq) workflows
 
 ### Bioconda
-**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) **package manager specializing in bioinformatics software**.
+**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) package manager **specializing in bioinformatics software**.
+We will use Bioconda to install most of the software we need for our bioinformatics pipelines.
 
-Bioconda requires the **conda **package manager to be installed. If you have an Anaconda Python installation, you already have it. Otherwise, the best way to install it is with the [Anaconda](https://docs.anaconda.com/) or [Miniconda](http://conda.pydata.org/miniconda.html) package. The Python 3 version is recommended.
+>Bioconda requires the **conda** package manager to be installed. If you have an Anaconda Python installation, you already have it. Otherwise, the best way to install it is with the [Anaconda](https://docs.anaconda.com/) or [Miniconda](http://conda.pydata.org/miniconda.html) package. The Python 3 version is recommended.
 
-See also
-
-- [What’s the difference between Anaconda, conda, and Miniconda?](https://bioconda.github.io/faqs.html#conda-anaconda-minconda)
-- The conda [FAQs](http://conda.pydata.org/docs/faq.html) explain how it’s easy to use with existing Python installations.
+  See also  
+    - [What’s the difference between Anaconda, conda, and Miniconda?](https://bioconda.github.io/faqs.html#conda-anaconda-minconda)
+    - The conda [FAQs](http://conda.pydata.org/docs/faq.html) explain how it’s easy to use with existing Python installations.
 
 Bioconda consists of:
 
