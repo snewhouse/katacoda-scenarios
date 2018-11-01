@@ -2,7 +2,16 @@
 A quick guide to setting up Anaconda, conda and Bioconda for basic NGS (DNAseq) workflows
 
 ### Bioconda
-**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) **package manager specializing in bioinformatics software**. Bioconda consists of:
+**Bioconda** is a channel for the [conda](http://conda.pydata.org/docs/intro.html) **package manager specializing in bioinformatics software**.
+
+Bioconda requires the **conda **package manager to be installed. If you have an Anaconda Python installation, you already have it. Otherwise, the best way to install it is with the [Anaconda](https://docs.anaconda.com/) or [Miniconda](http://conda.pydata.org/miniconda.html) package. The Python 3 version is recommended.
+
+See also
+
+- [What’s the difference between Anaconda, conda, and Miniconda?](https://bioconda.github.io/faqs.html#conda-anaconda-minconda)
+- The conda [FAQs](http://conda.pydata.org/docs/faq.html) explain how it’s easy to use with existing Python installations.
+
+Bioconda consists of:
 
 - a [repository of recipes](https://github.com/bioconda/bioconda-recipes) hosted on GitHub
 - a [build system](https://github.com/bioconda/bioconda-utils) that turns these recipes into conda packages
@@ -22,8 +31,6 @@ Each package added to Bioconda also has a corresponding Docker [BioContainer](ht
 **Browse packages in the Bioconda channel:** [Available packages](https://bioconda.github.io/recipes.html#recipes)
 
 **Browse BioContainer packages:** [Biocontainers Registry UI](https://biocontainers.pro/registry/#/)
-
---------
 
 Bioconda is a derivative mark of Anaconda ®, a trademark of Anaconda, Inc registered in the U.S. and other countries. Anaconda, Inc. grants permission of the derivative use but is not associated with Bioconda.
 
