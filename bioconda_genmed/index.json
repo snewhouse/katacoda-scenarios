@@ -8,13 +8,14 @@
       { "title": "Get Anaconda", "text": "./markdown/01_get_ananconda_install.md"},
       { "title": "Install Anaconda and Conda (Interactively)", "text": "./markdown/02_install_anaconda.md"},
       { "title": "Silent Installation", "text": "./markdown/03_install_silent_mode.md"},
-      { "title": "Set up Bioconda", "text": "./markdown/04_setup_bioconda.md"}
+      { "title": "Set up Bioconda", "text": "./markdown/04_setup_bioconda.md"},
+      { "tile": "Install Packages", "text": "./markdown/05_install_packages.md"}
     ],
     "intro": {
-      "text": "/markdown/intro.md"
+      "text": "./markdown/intro.md"
     },
     "finish": {
-      "text": "/markdown/finish.md"
+      "text": "./markdown/finish.md"
     }
   },
     "files": [
