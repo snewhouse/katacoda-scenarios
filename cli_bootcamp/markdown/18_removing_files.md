@@ -1,7 +1,7 @@
 
 You've seen how to remove a directory with the `rmdir` command, but `rmdir` won't remove directories if they contain any files. So how can we remove the files we have created (inside `learning_unix/temp`)? In order to do this, we will have to use the [rm][] (remove) command.
 
->***Please read the next section VERY carefully. Misuse of the `rm` command can lead to needless death & destruction***
+>***Please read the next section VERY carefully. Misuse of the `rm` command can lead to needless death & destruction. YOU CAN LOSE EVERYTHING***
 
 Potentially, `rm` is a very dangerous command; if you delete something with `rm`, you will not get it back! It is possible to delete everything in your home directory (all directories and subdirectories) with `rm`, that is why it is such a dangerous command.
 
@@ -39,18 +39,20 @@ We could have simplified this step by using a wild-card (e.g. `rm -i *.txt`) or 
 Let's finish cleaning up:
 
 ```bash
-learner@:temp$ rmdir temp2/temp3/
-learner@:temp$ rmdir temp2/
+learner@:temp$ rmdir temp2
 learner@:temp$ cd ..
 learner@:learning_unix$ rmdir temp
+learner@host01:~/learning_unix$ ls
+learner@host01:~/learning_unix$
 ```
 
-`rmdir temp2/temp3/`{{execute}}
 
 `rmdir temp2/`{{execute}}
 
 `cd ..`{{execute}}
 
 `rmdir temp`{{execute}}
+
+`ls`{{execute}}
 
 [rm]: http://en.wikipedia.org/wiki/Rm_(Unix)

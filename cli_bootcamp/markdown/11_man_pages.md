@@ -14,11 +14,14 @@ When you are using the man command:
 
 - press `space` to scroll down a page.
 - `b` to go back a page.
-- `q` to quit. 
+- `q` to quit.
 
-You can also use the up and down arrows to scroll a line at a time. 
+You can also use the up and down arrows to scroll a line at a time.
 
 The man command is actually using another Unix program, a text viewer called `less`, which we'll come to later on.
 
+## If in doubt: Google It!
 
+These days, most of us just use Google. You will find all the answers there.
 
+Try searching for `man ls linux` in Google - or even `ls linux command` or `cd linux command`...and see what you get.

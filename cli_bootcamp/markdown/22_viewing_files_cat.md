@@ -21,6 +21,12 @@ learner@:learning_unix$ cat opening_lines.txt > file_copy.txt
 
 `cat opening_lines.txt > file_copy.txt`{{execute}}
 
+Lets have a look at the copy:
+
+`less file_copy.txt`{{execute}}
+
+NB: Press 'q' to exit the `less` command.
+
 And again, let's clean up the redundant file:
 
 ```bash

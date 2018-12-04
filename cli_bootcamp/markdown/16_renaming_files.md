@@ -29,3 +29,5 @@ learner@host01:~/learning_unix$ mv temp/riches temp/rags
 ```
 
 `mv temp/riches temp/rags`{{execute}}
+
+`ls temp/`{{execute}}

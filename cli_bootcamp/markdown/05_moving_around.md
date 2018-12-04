@@ -35,12 +35,12 @@ learner@host01:~/learning_unix/outer$ cd inner
 learner@host01:~/learning_unix/outer/inner$
 ```
 
-Remember that you can always find out where you are using: 
+Remember that you can always find out where you are using:
 
 `pwd`{{execute}}:
 
 ```bash
-learner@host1:inner$ pwd
+learner@host01:~/learning_unix/outer/inner$ pwd
 /home/learner/learning_unix/outer/inner
 ```
 

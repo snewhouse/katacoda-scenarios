@@ -61,4 +61,6 @@ learner@:learning_unix$ rm file*
 
 `rm file*`{{execute}}
 
+`ls`{{execute}}
+
 [cp]: http://en.wikipedia.org/wiki/Cp_(Unix)
