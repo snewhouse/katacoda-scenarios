@@ -26,6 +26,12 @@ From time to time this documentation will contain [web links][] to pages that wi
 
 >**IMPORTANT: Please run the following command before proceeding!!!!**
 
+If you are not already set as USER `learner`, run the following commands:- 
+
+`sudo -i -u learner && source .bashrc && clear`{{execute}}
+
+OR
+
 `source .bashrc`{{execute}}
 
 ****
