@@ -30,8 +30,4 @@ If you are not already set as USER `learner`, run the following commands:-
 
 `sudo -i -u learner && source .bashrc && clear`{{execute}}
 
-OR
-
-`source .bashrc`{{execute}}
-
 ****
